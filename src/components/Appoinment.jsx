@@ -1,12 +1,4 @@
-import { useNavigate} from "react-router-dom";
 
-const onChangePage = () => {
-  const navigate = useNavigate()
-
-  const goBack=()=>{
-    navigate(-1);
-  }
-}
 
 function Appointment() {
   return(

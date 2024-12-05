@@ -2,11 +2,6 @@
 
 function Home() {
 
-  const sideBar = () => {
-      let list = document.querySelector('.d-list-hidden').classList
-      list.add("d-list-visible");
-    }
-
   return (
     <header>
       <div className="project-title">
@@ -22,7 +17,7 @@ function Home() {
           <li><a href="#contact">Contact</a></li>
           <li>+91 9876543210</li>
         </ul>
-        <button className="t-bar" onChange={() => sideBar()}>&equiv;</button>
+        <button className="t-bar">&equiv;</button>
         <div className="d-list-hidden">
           <ul className="h-ul">
             <li><a href="#home">Home</a></li>
