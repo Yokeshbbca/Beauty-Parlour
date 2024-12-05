@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://github.com/Yokeshbbca/Beauty-Parlour.git",
+  "homepage" : "https://Yokeshbbca/github.io/Beauty-Parlour",
   "name": "mobility",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
