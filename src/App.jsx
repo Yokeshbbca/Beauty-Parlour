@@ -1,6 +1,5 @@
 import Home from "./components/Home"
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import Body from "./components/Body"
 import Appointment from "./components/Appoinment"
 
 
